@@ -22,7 +22,6 @@ source.include_patterns = assets/*
 version = 1.0
 
 # (list) Application requirements
-# comma separated e.g. requirements = sqlite3,kivy
 requirements = python3,pygame
 
 # (str) Supported orientation (landscape, portrait or all)
@@ -33,3 +32,12 @@ fullscreen = 1
 
 # (list) Permissions
 android.permissions = WAKE_LOCK
+
+# (str) Android SDK version to use
+android.api = 33
+
+# (str) Minimum API version
+android.minapi = 21
+
+# (int) Automatically accept SDK license agreements
+android.accept_sdk_license = True
